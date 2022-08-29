@@ -24,10 +24,8 @@ const selectEl = document.getElementById("select-el")
 document.getElementById("select-el").addEventListener("change", () =>{
      let selectedValue = selectEl.value
     //console.log(selectedValue)
-    //console.log("megvaltozott")
     
-    /**GETTING COLORS FROM API AND PLACING IT IN DOM 
-*/
+/**GETTING COLORS FROM API AND PLACING IT IN DOM */
 document.getElementById("select-btn").addEventListener("click", () =>{
     //console.log("Megvan")
     const hexValue = colorInput.value.replace("#","")
