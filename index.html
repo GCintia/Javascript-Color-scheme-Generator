@@ -1,0 +1,38 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <input type="color" value="#AAD1B6" id="color-input" />
+            <select id="select-el" value="monochrome">
+                <option class="option" id="option-mono" value="monochrome">Monochrome</option>
+                <option class="option" id="option-mono-dark" value="monochrome-dark">Monochrome-dark</option>
+                <option class="option" id="option-mono-light" value="monochrome-light">Monochrome-light</option>
+                <option class="option" id="option-ana" value="analogic">Analogic</option>
+                <option class="option" id="option-compl" value="complement">Complement</option>
+                <option class="option" id="option-ana-compl" value="analogic-complement">Analogic-complement</option>
+                <option class="option" id="option-tri" value="triad">Triad</option>
+            </select>
+            <button id="select-btn">Get color scheme</button>
+        </div>
+        <div class="colors">
+            <div id="color-container">
+                <div class="color color-1" id="color-1" ></div>
+                <div class="color color-2" id="color-2"></div>
+                <div class="color color-3" id="color-3"></div>
+                <div class="color color-4" id="color-4"></div>
+                <div class="color color-5" id="color-5"></div>
+                
+            </div>
+            <div class="color-names">
+                <div class="col-name" id="col1-name"></div>
+                <div class="col-name" id="col2-name"></div>
+                <div class="col-name" id="col3-name"></div>
+                <div class="col-name" id="col4-name"></div>
+                <div class="col-name" id="col5-name"></div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
